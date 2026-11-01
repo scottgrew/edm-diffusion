@@ -1,0 +1,27 @@
+[project]
+name = "diffusion-toy"
+version = "0.1.0"
+description = "Diffusion models learned on a 2-D Gaussian mixture, where every answer is exact."
+requires-python = ">=3.12"
+dependencies = ["torch>=2.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.black]
+line-length = 80
+skip-magic-trailing-comma = true
+
+[tool.ruff]
+line-length = 80
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E", "F", "W", "I", "N", "UP", "B",
+    "SIM", "RET", "C4", "ARG", "PL", "RUF", "PERF",
+]
+# Expected values in comparisons read better as numbers than as named
+# constants.
+ignore = ["PLR2004"]
