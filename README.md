@@ -1,4 +1,4 @@
-# Diffusion on a 2-D toy, checked against exact answers
+# Diffusion on a 2-D toy
 
 A small diffusion model (EDM-style denoiser, deterministic and stochastic
 samplers, exact likelihood, classifier guidance, and six predictions with
