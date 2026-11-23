@@ -7,9 +7,9 @@ import math
 import torch
 from torch import Tensor
 
-from toy.diffusion import _noise_column, _posterior_parts, ideal_denoiser
-from toy.mixture import GaussianMixture
-from toy.sample import Denoise
+from edm.diffusion import _noise_column, _posterior_parts, ideal_denoiser
+from edm.mixture import GaussianMixture
+from edm.sample import Denoise
 
 
 def _validate_blob_index(mixture: GaussianMixture, blob: int) -> None:

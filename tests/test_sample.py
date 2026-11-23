@@ -6,9 +6,9 @@ import pytest
 import torch
 from torch import Tensor
 
-from toy.diffusion import ideal_denoiser
-from toy.mixture import THREE_BLOBS, GaussianMixture
-from toy.sample import (
+from edm.diffusion import ideal_denoiser
+from edm.mixture import THREE_BLOBS, GaussianMixture
+from edm.sample import (
     Denoise,
     heun_sample,
     initial_noise,

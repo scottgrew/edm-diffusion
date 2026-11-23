@@ -4,10 +4,10 @@ import pytest
 import torch
 from torch import Tensor
 
-from toy.diffusion import ideal_denoiser
-from toy.likelihood import drift_and_divergence, log_likelihood
-from toy.mixture import THREE_BLOBS, GaussianMixture
-from toy.sample import Denoise, karras_sigmas
+from edm.diffusion import ideal_denoiser
+from edm.likelihood import drift_and_divergence, log_likelihood
+from edm.mixture import THREE_BLOBS, GaussianMixture
+from edm.sample import Denoise, karras_sigmas
 
 
 def _ideal_denoise_for(mixture: GaussianMixture) -> Denoise:

@@ -10,11 +10,11 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import torch
 
-from toy.guidance import guided_denoiser
-from toy.mixture import THREE_BLOBS
-from toy.network import TrainConfig, train_denoiser
-from toy.predictions import kmeans_predictions
-from toy.sample import heun_sample, initial_noise, karras_sigmas
+from edm.guidance import guided_denoiser
+from edm.mixture import THREE_BLOBS
+from edm.network import TrainConfig, train_denoiser
+from edm.predictions import kmeans_predictions
+from edm.sample import heun_sample, initial_noise, karras_sigmas
 
 POINTS = 2000
 SAMPLER_STEPS = 32

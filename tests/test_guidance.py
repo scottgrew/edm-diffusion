@@ -6,9 +6,9 @@ import pytest
 import torch
 from torch import Tensor
 
-from toy.guidance import guided_denoiser, log_responsibility_gradient
-from toy.mixture import THREE_BLOBS, GaussianMixture
-from toy.sample import heun_sample, initial_noise, karras_sigmas
+from edm.guidance import guided_denoiser, log_responsibility_gradient
+from edm.mixture import THREE_BLOBS, GaussianMixture
+from edm.sample import heun_sample, initial_noise, karras_sigmas
 
 
 def _autograd_log_responsibility_gradient(

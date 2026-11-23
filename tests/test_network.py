@@ -7,10 +7,10 @@ from typing import TYPE_CHECKING
 import pytest
 import torch
 
-from toy.diffusion import add_noise, ideal_denoiser, posterior_covariance
-from toy.mixture import THREE_BLOBS
-from toy.network import Denoiser, TrainConfig, train_denoiser
-from toy.precondition import coefficients, sample_sigma, sigma_data_of
+from edm.diffusion import add_noise, ideal_denoiser, posterior_covariance
+from edm.mixture import THREE_BLOBS
+from edm.network import Denoiser, TrainConfig, train_denoiser
+from edm.precondition import coefficients, sample_sigma, sigma_data_of
 
 if TYPE_CHECKING:
     from torch import Tensor

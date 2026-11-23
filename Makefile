@@ -1,6 +1,6 @@
 PYTHON ?= python3
 TOOLS ?= $(HOME)/venvs/tracker/bin
-SOURCES := toy tests train.py figure.py
+SOURCES := edm tests train.py figure.py
 
 .PHONY: test check figure
 test: ## run the exact-answer tests

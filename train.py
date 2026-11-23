@@ -8,8 +8,8 @@ from pathlib import Path
 
 import torch
 
-from toy.mixture import THREE_BLOBS
-from toy.network import TrainConfig, train_denoiser
+from edm.mixture import THREE_BLOBS
+from edm.network import TrainConfig, train_denoiser
 
 
 def main() -> None:

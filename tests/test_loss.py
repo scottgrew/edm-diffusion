@@ -7,9 +7,9 @@ import torch
 import torch.autograd.functional as autograd_functional
 from torch import Tensor
 
-from toy.diffusion import ideal_denoiser, posterior_covariance
-from toy.loss import denoising_loss
-from toy.mixture import THREE_BLOBS, GaussianMixture
+from edm.diffusion import ideal_denoiser, posterior_covariance
+from edm.loss import denoising_loss
+from edm.mixture import THREE_BLOBS, GaussianMixture
 
 
 def _tweedie_posterior_covariance(

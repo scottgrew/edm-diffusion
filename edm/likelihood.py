@@ -7,7 +7,7 @@ from collections.abc import Callable
 import torch
 from torch import Tensor
 
-from toy.sample import Denoise
+from edm.sample import Denoise
 
 PLANE_DIMENSION = 2
 

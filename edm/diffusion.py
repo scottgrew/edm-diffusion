@@ -7,7 +7,7 @@ import math
 import torch
 from torch import Tensor
 
-from toy.mixture import GaussianMixture
+from edm.mixture import GaussianMixture
 
 
 def _noise_column(sigma: float | Tensor, n: int) -> Tensor:

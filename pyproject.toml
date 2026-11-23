@@ -1,5 +1,5 @@
 [project]
-name = "diffusion-toy"
+name = "edm-diffusion"
 version = "0.1.0"
 description = "Diffusion models learned on a 2-D Gaussian mixture, where every answer is exact."
 requires-python = ">=3.12"

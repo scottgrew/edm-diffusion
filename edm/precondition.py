@@ -10,7 +10,7 @@ from typing import NamedTuple
 import torch
 from torch import Tensor
 
-from toy.mixture import GaussianMixture
+from edm.mixture import GaussianMixture
 
 
 class Coefficients(NamedTuple):

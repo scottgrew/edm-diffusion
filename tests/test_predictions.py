@@ -4,8 +4,8 @@ import pytest
 import torch
 from torch import Tensor
 
-from toy.mixture import THREE_BLOBS, GaussianMixture
-from toy.predictions import Predictions, kmeans_predictions
+from edm.mixture import THREE_BLOBS, GaussianMixture
+from edm.predictions import Predictions, kmeans_predictions
 
 
 def _centre_blob_ownership(centres: Tensor, mixture: GaussianMixture) -> Tensor:

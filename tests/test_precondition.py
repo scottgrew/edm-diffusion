@@ -5,10 +5,10 @@ import math
 import pytest
 import torch
 
-from toy.diffusion import add_noise, ideal_denoiser, posterior_covariance
-from toy.loss import denoising_loss
-from toy.mixture import THREE_BLOBS, GaussianMixture
-from toy.precondition import (
+from edm.diffusion import add_noise, ideal_denoiser, posterior_covariance
+from edm.loss import denoising_loss
+from edm.mixture import THREE_BLOBS, GaussianMixture
+from edm.precondition import (
     Coefficients,
     coefficients,
     denoiser_from_network,

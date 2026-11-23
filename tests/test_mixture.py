@@ -3,8 +3,8 @@
 import pytest
 import torch
 
-from toy.diffusion import add_noise
-from toy.mixture import THREE_BLOBS, GaussianMixture
+from edm.diffusion import add_noise
+from edm.mixture import THREE_BLOBS, GaussianMixture
 
 
 def _assert_moments_match(

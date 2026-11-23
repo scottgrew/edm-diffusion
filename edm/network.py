@@ -8,9 +8,9 @@ from dataclasses import dataclass
 import torch
 from torch import Tensor, nn
 
-from toy.diffusion import add_noise
-from toy.mixture import GaussianMixture
-from toy.precondition import (
+from edm.diffusion import add_noise
+from edm.mixture import GaussianMixture
+from edm.precondition import (
     coefficients,
     denoiser_from_network,
     network_target,

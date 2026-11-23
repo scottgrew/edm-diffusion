@@ -3,8 +3,8 @@
 import pytest
 import torch
 
-from toy.diffusion import _noise_column, ideal_denoiser, score
-from toy.mixture import THREE_BLOBS
+from edm.diffusion import _noise_column, ideal_denoiser, score
+from edm.mixture import THREE_BLOBS
 
 
 @pytest.mark.parametrize("noise_level", (0.05, 0.5, 3.0))
